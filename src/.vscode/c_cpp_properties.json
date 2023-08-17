@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/a/catkin_ws/devel/include/**",
+        "/home/a/catkin_ws/src/3D_Lidar_Detection/include/**",
+        "/home/a/catkin_ws/src/ROS101/act_test_ros/include/**",
+        "/home/a/catkin_ws/src/aruco_ros/aruco/include/**",
+        "/home/a/catkin_ws/src/aruco_mapping/include/**",
+        "/home/a/catkin_ws/src/aruco_ros/aruco_ros/include/**",
+        "/home/a/catkin_ws/src/ROS101/custom_msg_srv_param_ros/include/**",
+        "/home/a/catkin_ws/src/dwa_local_planner/include/**",
+        "/home/a/catkin_ws/src/dwa_planner/include/**",
+        "/home/a/catkin_ws/src/ROS101/hello_world_ros/include/**",
+        "/home/a/catkin_ws/src/ld_cpp/include/**",
+        "/home/a/catkin_ws/src/lidar_camera_calibration/include/**",
+        "/home/a/catkin_ws/src/lidar_detection/include/**",
+        "/home/a/catkin_ws/src/multiple-object-tracking-lidar/include/**",
+        "/home/a/catkin_ws/src/obstacle_detector/include/**",
+        "/home/a/catkin_ws/src/opencv/include/**",
+        "/home/a/catkin_ws/src/ROS101/pub_test_ros/include/**",
+        "/home/a/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/a/catkin_ws/src/ROS101/ros_gtest_example/include/**",
+        "/home/a/catkin_ws/src/scale_car_yolov5/include/**",
+        "/home/a/catkin_ws/src/ROS101/srv_test_ros/include/**",
+        "/home/a/catkin_ws/src/stop_line/include/**",
+        "/home/a/catkin_ws/src/ROS101/sub_test_ros/include/**",
+        "/home/a/catkin_ws/src/test_hardnet/include/**",
+        "/home/a/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/a/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/a/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/a/catkin_ws/src/ROS101/turtlesim_joy_ctrl_cmd_adv/include/**",
+        "/home/a/catkin_ws/src/velodyne/velodyne_driver/include/**",
+        "/home/a/catkin_ws/src/velodyne/velodyne_laserscan/include/**",
+        "/home/a/catkin_ws/src/velodyne/velodyne_pcl/include/**",
+        "/home/a/catkin_ws/src/velodyne/velodyne_pointcloud/include/**",
+        "/home/a/catkin_ws/src/video_to_bag/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
