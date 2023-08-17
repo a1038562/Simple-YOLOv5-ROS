@@ -35,11 +35,12 @@ class YoloV5_ROS():
         self.weights = rospy.get_param("~weights")  # model path
         self.data = rospy.get_param("~data")  # dataset.yaml path
         self.device = torch.device(rospy.get_param("~device"))  # cuda device, i.e. 0 or 0,1,2,3 or cpu
+        imgsz = rospy.get_param("~imgsz")
 
         # Load model
         self.model = DetectMultiBackend(self.weights, device=self.device, dnn=False, data=self.data, fp16=False)
         self.stride, self.names, self.pt = self.model.stride, self.model.names, self.model.pt
-        self.imgsz = (160, 160)
+        self.imgsz = (imgsz, imgsz)
 
         self.conf_thres = 0.25  # confidence threshold
         self.iou_thres = 0.45  # NMS IOU threshold

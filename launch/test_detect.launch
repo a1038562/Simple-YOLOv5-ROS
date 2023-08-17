@@ -5,5 +5,6 @@
 		<param name="weights" value="$(find yolov5_ROS)/src/yolov5/runs/train/project_name/weights/best.pt" />
 		<param name="data" value="$(find yolov5_ROS)/src/yolov5/data/project_name.yaml" />
 		<param name="device" value="0" />
+		<param name="imgsz" value="640" />
 	</node>
 </launch>
